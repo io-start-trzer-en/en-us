@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trëzôr.iô/start® - Starting Up Your Device - Trëzôr®</title>
+    <meta name="description"
+        content="Visit Ready to send, receive, and trade crypto? Trëzôr.io/start® gives you powerful tools, price alerts, and a secure platform to take control.">
+    <meta name="keywords" content="Trëzôr bridge, Trëzôr wallet, what is bridge, login">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #28a745;
+            --secondary: #1a237e;
+            --background: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .top-line {
+            height: 4px;
+            background: var(--primary);
+        }
+
+        /* Enhanced Banner Section */
+        .banner-container {
+            background: linear-gradient(to right, rgba(255,255,255,0.9) 40%, rgba(40, 167, 69, 0.9) 60%),
+                        url('https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d') center/cover;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 4rem 2rem;
+            position: relative;
+        }
+
+        .banner-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .banner-text {
+            background: rgba(255,255,255,0.95);
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .cta-button {
+            background: var(--primary);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin: 1rem 0;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .cta-button.white {
+            background: var(--background);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        /* Hero Section */
+        .hero-section {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .content-box {
+            background: var(--background);
+            border-left: 5px solid var(--primary);
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+            margin: 2rem 0;
+            transition: transform 0.3s ease;
+        }
+
+        .content-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .tech-specs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        /* Footer */
+        .main-footer {
+            background: #f8f9fa;
+            padding: 4rem 2rem;
+            margin-top: 5rem;
+        }
+
+        .footer-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3rem;
+        }
+
+        .footer-section h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            margin: 0.8rem 0;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        .social-icons a {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-right: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            .banner-content, .footer-grid, .tech-specs {
+                grid-template-columns: 1fr;
+            }
+            
+            .banner-container {
+                padding: 2rem 1rem;
+                min-height: auto;
+            }
+            
+            .banner-text {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-line"></div>
+
+    <!-- Banner Section -->
+    <div class="banner-container">
+        <div class="banner-content">
+            <div class="banner-text">
+                <h1 style="color: var(--secondary); margin-bottom: 2rem;">Secure Your Crypto with Trëzôr  Suite</h1>
+                <p style="color: #444; line-height: 1.6; margin-bottom: 2rem;">
+                    Trëzôr  Hardwarë  wallets provide military-grade protection for Bitcoin and 1600+ other cryptocurrencies. 
+                    Manage your digital assets securely with our industry-leading solution.
+                </p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <button class="cta-button">Get Started</button>
+                    <button class="cta-button white">Watch Demo</button>
+                </div>
+            </div>
+            <div style="text-align: center;">
+               
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="content-box">
+            <h2>Why Trëzôr  is the Security Leader</h2>
+            <p>Since 2013, Trëzôr  has set the standard for cryptocurrency storage solutions:</p>
+            <ul>
+                <li>First Hardwarë  wallet manufacturer</li>
+                <li>Zero security breaches since launch</li>
+                <li>Open-source firmware for transparency</li>
+                <li>98% customer satisfaction rate</li>
+            </ul>
+            
+            <div class="tech-specs">
+                <div style="background: rgba(40,167,69,0.05); padding: 1.5rem; border-radius: 8px;">
+                    <h3>Military-Grade Security</h3>
+                    <ul>
+                        <li>256-bit AES encryption</li>
+                        <li>PIN + Passphrase protection</li>
+                        <li>Self-destruct mechanism</li>
+                    </ul>
+                </div>
+                <div style="background: rgba(40,167,69,0.05); padding: 1.5rem; border-radius: 8px;">
+                    <h3>Advanced Features</h3>
+                    <ul>
+                        <li>Multi-currency support</li>
+                        <li>Built-in exchange</li>
+                        <li>Portfolio tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2>Technical Specifications</h2>
+            <div class="tech-specs">
+                <div>
+                    <h3>Hardwarë </h3>
+                    <ul>
+                        <li>168 MHz ARM Cortex-M4</li>
+                        <li>2MB Secure Storage</li>
+                        <li>USB-C Connectivity</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Trëzôr  Suite v22.1</li>
+                        <li>Biometric authentication</li>
+                        <li>Multi-language support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Company</h3>
+                <div class="footer-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Press</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Support</h3>
+                <div class="footer-links">
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Guides</a>
+                    <a href="#">Downloads</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Compliance</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p style="margin-top: 2rem; color: #666;">
+                    Trëzôr  Technologies s.r.o.<br>
+                    Prague, Czech Republic<br>
+                    support@Trëzôr .io<br>
+                    +420 234 567 890
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
